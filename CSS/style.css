@@ -1,0 +1,1140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: wheat;
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(girl.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.container-fluid {
+  margin-left: 140px;
+}
+
+ul {
+  margin-left: 100px;
+}
+
+li {
+  margin-left: 20px;
+}
+
+a {
+  color: white;
+}
+
+a.nav-link:hover {
+  border-bottom: 2px solid sandybrown;
+}
+
+.beautify {
+  color: chocolate;
+  font-size: 50px;
+  margin-bottom: 30px;
+  padding-top: 100px;
+  padding-left: 100px;
+}
+
+.franso {
+  color: crimson;
+  font-weight: 500;
+  margin-bottom: 30px;
+  padding-left: 100px;
+}
+
+.btns {
+  background-color: chocolate;
+  color: white;
+  border: none;
+  height: 50px;
+  margin-left: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
+  font-weight: 500;
+}
+
+.wrapper {
+  position: initial;
+  padding-top: 60px;
+  margin-top: 0px;
+  margin-left: 0px;
+  width: 100%;
+}
+
+.container {
+  margin-top: 700px;
+}
+
+.image {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 800px;
+}
+
+.main-content {
+  position: absolute;
+  margin-top: 600px;
+  margin-left: 700px;
+}
+
+.inner-heading {
+  color: chocolate;
+  font-size: 50px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.inner-content {
+  color: gray;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+/* Beginning of the second scroll before loading*/
+#second-container {
+  margin-left: 100px;
+  width: 80%;
+  height: 100px;
+  float: left;
+  display: flex;
+}
+
+.i-content {
+  width: 600px;
+  padding: 30px;
+  color: gray;
+  font-weight: 500;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    opacity: 0;
+    transform: scale(0.1);
+    transition: all 1s ease-in-out;
+}
+/* End of the second scroll before loading part*/
+
+.inner-heading {
+  text-align: center;
+}
+
+.container h1 {
+    text-align: center;
+    margin: 0px;
+}
+
+.about-heading {
+    text-align: center;
+}
+
+.row {
+    padding: 30px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    opacity: 0;
+    transform: scale(0.1);
+    transition: all 1s ease-in-out;
+}
+
+.active {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.col {
+    flex-basis: 40%;
+}
+
+.btn {
+  background-color: chocolate;
+  color: white;
+  width: 160px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 500;
+}
+
+.wrap {
+  position: initial;
+  margin-top: 20px;
+  margin-left: 100px;
+  display: flex;
+}
+
+.image2 {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  margin-left: 40px;
+  margin-top: 35px;
+}
+
+.first-circle {
+  width: 100px;
+  height: 100px;
+  background-color: sandybrown;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.second-circle {
+  width: 80px;
+  height: 80px;
+  background-color: sandybrown;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: 190px;
+  margin-left: 200px;
+}
+
+#faq-container {
+  margin-top: 400px;
+}
+
+.accordion-heading {
+  text-align: center;
+  color: chocolate;
+  font-size: 29px;
+  margin-bottom: 20px;
+}
+
+.accordion-button {
+   background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url(girl.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  color: wheat;
+}
+
+.accordion-item {
+  background-color: chocolate;
+  background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url(girl.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+b {
+  color: wheat;
+}
+
+footer {
+  width: 100%;
+  height: 400px;
+  background-color: chocolate;
+  margin-top: 200px;
+  padding-top: 50px;
+  padding-left: 50px;
+  display: flex;
+}
+
+.logo {
+  color: peachpuff;
+  font-family: "Edwardian Script ITC";
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.footer-paragraph {
+  font-family: 'fantasy';
+  font-weight: 500;
+}
+
+.social-media-stack {
+  width: 200px;
+  display: flex;
+}
+
+#facebook {
+  font-size: 30px;
+  color: white;
+  border: none;
+  margin-right: 20px;
+}
+
+#tweet {
+  font-size: 30px;
+  border: none;
+  color: white;
+  margin-right: 20px;
+}
+
+#linked {
+  color: white;
+  font-size: 30px;
+  margin-right: 20px;
+}
+
+.second-footer-container {
+  margin-left: 100px;
+}
+
+.service {
+  margin-top: 20px;
+}
+
+.first-link {
+  margin-top: 50px;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+.first-link a {
+  color: white;
+  font-family: 'fantasy';
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.second-link a {
+  color: white;
+  font-family: 'fantasy';
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.third-link a {
+  color: white;
+  font-family: 'fantasy';
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.third-footer-container {
+  margin-left: 150px;
+}
+
+.contacts {
+  margin-top: 20px;
+}
+
+.mail-me {
+  margin-top: 56px;
+}
+
+#mailme {
+  color: white;
+  margin-right: 6px;
+}
+
+a.e-mail {
+  color: white;
+  text-decoration: none;
+}
+
+a.e-mail:hover {
+  text-decoration: underline;
+}
+
+.first-phone-no {
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.second-phone-no {
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+#call {
+  margin-right: 6px;
+}
+
+.fourth-footer-container {
+  margin-left: 150px;
+}
+
+.o-add {
+  margin-top: 20px;
+}
+
+.address-p {
+  margin-top: 55px;
+  font-weight: 600;
+  font-family: 'fantasy';
+}
+
+
+
+@media screen and (max-width: 600px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: wheat;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(girl.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .container-fluid {
+    margin-left: 30px;
+  }
+
+  .wrapper {
+    padding-left: 0px;
+    width: 90%;
+  }
+
+  .beautify {
+    color: chocolate;
+    font-size: 30px;
+    margin-left: 0px;
+    margin-bottom: 30px;
+    letter-spacing: 0.2rem;
+    line-height: 2.9rem;
+  }
+
+  .franso {
+    color: crimson;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-align: left;
+  }
+
+  .btns {
+    color: white;
+    border: none;
+    width: 250px;
+    height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 19px;
+    margin-left: 120px;
+  }
+
+  .container {
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    margin-left: 10px;
+    padding-left: 0;
+  }
+
+  #second-container {
+   margin-left: 0px;
+   padding-left: 0;
+  width: 80%;
+  height: 90px;
+  float: none;
+  display: block;
+  }
+
+  #ab-p {
+    text-align: center;
+    font-weight: 600;
+    font-size: 60px;
+  }
+
+  .wrap {
+    margin-top: 50px;
+  }
+
+  .image2 {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  margin-left: 40px;
+  margin-top: 35px;
+}
+
+.second-circle {
+  margin-top: 290px;
+  margin-left: 300px;
+}
+
+  #faq-container {
+    width: 100%;
+    margin-top: 750px;
+    margin-left: 20px;
+  }
+
+  .accordion-heading {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 450px;
+  }
+
+  footer {
+    width: 100%;
+    height: 1000px;
+    display: block;
+  }
+
+  .second-footer-container, .third-footer-container,
+  .fourth-footer-container {
+    margin-left: 0;
+  }
+
+  .services, .contact, .oadd {
+    margin-top: 50px;
+  }
+
+  .first-link, .mail-me, .address-p {
+    margin-top: 10px;
+  }
+}
+
+
+
+@media screen and (max-width: 450px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: wheat;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(girl.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .container-fluid {
+    margin-left: 30px;
+  }
+
+  ul {
+    margin-left: 0px;
+  }
+
+  li {
+    margin-left: 100px;
+  }
+
+  .beautify {
+    color: chocolate;
+    font-size: 30px;
+    margin-left: 0px;
+    margin-bottom: 30px;
+    letter-spacing: 0.2rem;
+    line-height: 2.9rem;
+  }
+
+  .built {
+    margin-left: 20px;
+  }
+
+  .franso {
+    color: crimson;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 100px;
+  }
+
+  .btns {
+    background-color: chocolate;
+    color: white;
+    border: none;
+    width: 200px;
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 15px;
+    margin-left: 120px;
+  }
+
+  .wrapper {
+  position: initial;
+  margin-top: 0px;
+  margin-left: 0px;
+  width: 100%;
+}
+
+  .main-content {
+    position: initial;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+
+  .head3 {
+    color: chocolate;
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+    line-height: 2.9rem;
+    text-align: center;
+  }
+
+  .choose {
+    margin-left: 0px;
+    margin-right: 20px;
+  }
+
+  .content {
+    color: gray;
+    font-weight: 500;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 80px;
+  }
+
+  .btn {
+    background-color: chocolate;
+    color: white;
+    width: 160px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    margin-left: 120px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 500;
+  }
+
+  #first-container {
+    margin-left: none;
+    padding-left: 0;
+    width: 430px;
+  }
+
+  .inner-heading {
+    font-size: 40px;
+  }
+
+  #second-container {
+  margin-left: 0px;
+  /*width: 800px;
+  height: 500px;*/
+  float: none;
+  display: block;
+}
+
+.i-content {
+  width: 400px;
+  height: 300px;
+  padding: 30px;
+  color: gray;
+  font-weight: 500;
+  font-size: 14px;
+}
+  .wrap {
+    position: initial;
+    margin-top: 150px;
+    margin-left: 50px;
+    display: flex;
+  }
+
+  .image2 {
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 35px;
+  }
+
+  .first-circle {
+    width: 100px;
+    height: 100px;
+    background-color: sandybrown;
+    border-radius: 50%;
+    position: absolute;
+  }
+
+  .second-circle {
+    width: 80px;
+    height: 80px;
+    background-color: sandybrown;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 190px;
+    margin-left: 250px;
+  }
+
+  #faq-container {
+  margin-top: 700px;
+  margin-left: 0;
+}
+
+  footer {
+  width: 100%;
+  height: 1100px;
+  background-color: chocolate;
+  margin-top: 200px;
+  padding-top: 50px;
+  padding-left: 50px;
+  display: block;
+}
+
+.logo {
+  color: peachpuff;
+  font-family: "Edwardian Script ITC";
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.footer-paragraph {
+  font-family: 'fantasy';
+  font-weight: 500;
+  margin-left: 0px;
+  margin-right: 30px;
+}
+
+.social-media-stack {
+  width: 200px;
+  display: flex;
+}
+
+#facebook {
+  font-size: 30px;
+  color: white;
+  border: none;
+  margin-right: 20px;
+}
+
+#tweet {
+  font-size: 30px;
+  border: none;
+  color: white;
+  margin-right: 20px;
+}
+
+#linked {
+  color: white;
+  font-size: 30px;
+}
+
+.second-footer-container {
+  margin-left: 0px;
+}
+
+.service {
+  margin-top: 60px;
+}
+
+.first-link {
+  margin-top: 30px;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+.first-link a {
+  color: white;
+  font-family: 'fantasy';
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.second-link a {
+  color: white;
+  font-family: 'fantasy';
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.third-link a {
+  color: white;
+  font-family: 'fantasy';
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.third-footer-container {
+  margin-top: 70px;
+  margin-left: 0px;
+}
+
+.contacts {
+  margin-top: 20px;
+}
+
+.mail-me {
+  margin-top: 30px;
+}
+
+#mailme {
+  color: white;
+  margin-right: 6px;
+}
+
+a.e-mail {
+  color: white;
+  text-decoration: none;
+}
+
+a.e-mail:hover {
+  text-decoration: underline;
+}
+
+.first-phone-no {
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.second-phone-no {
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+#call {
+  margin-right: 6px;
+}
+
+.fourth-footer-container {
+  margin-top: 70px;
+  margin-left: 0px;
+}
+
+.o-add {
+  margin-top: 20px;
+}
+
+.address-p {
+  margin-top: 30px;
+  font-weight: 600;
+  font-family: 'fantasy';
+}
+}
+
+
+
+
+@media screen and (max-width: 375px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: wheat;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(girl.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .container-fluid {
+    margin-left: 30px;
+  }
+
+  ul {
+    margin-left: 0px;
+  }
+
+  li {
+    margin-left: 100px;
+  }
+
+  .beautify {
+    color: chocolate;
+    font-size: 30px;
+    margin-left: 0px;
+    margin-bottom: 30px;
+    letter-spacing: 0.2rem;
+    line-height: 2.5rem;
+    padding-left: 60px;
+  }
+
+  .built {
+    margin-left: 20px;
+  }
+
+  .franso {
+  color: crimson;
+  font-weight: 700;
+  margin-bottom: 30px;
+  padding-left: 70px;
+}
+
+  .btns {
+    background-color: chocolate;
+    color: white;
+    border: none;
+    width: 200px;
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 15px;
+    margin-left: 70px;
+  }
+
+  .wrapper {
+    position: initial;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+
+  .image {
+    width: 200px;
+    height: 250px;
+    border-radius: 50%;
+    position: initial;
+    margin-top: 50px;
+    margin-left: 80px;
+  }
+
+  .choose {
+    margin-left: 30px;
+  }
+
+  .content {
+    color: gray;
+    font-weight: 500;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-left: 70px;
+    margin-right: 100px;
+  }
+
+  .btn {
+    background-color: chocolate;
+    color: white;
+    width: 160px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    margin-left: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 500;
+  }
+
+  #first-container {
+    margin-left: 0;
+    padding-left: 0;
+    width: 375px;
+  }
+
+  .inner-heading {
+    font-size: 30px;
+  }
+
+  #second-container {
+  margin-left: 0px;
+  /*width: 800px;
+  height: 500px;*/
+  float: none;
+  display: block;
+}
+
+.i-content {
+  width: 320px;
+  height: 360px;
+  padding: 30px;
+  padding-left: 50px;
+  color: gray;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+#ab-p {
+  font-size: 30px;
+}
+
+.inner-heading {
+  margin-bottom: 10px;
+}
+  .wrap {
+    position: initial;
+    margin-top: 180px;
+    margin-left: 15px;
+    display: flex;
+  }
+
+  .first-circle {
+    width: 100px;
+    height: 100px;
+    background-color: sandybrown;
+    border-radius: 50%;
+    position: absolute;
+  }
+
+  .second-circle {
+    width: 80px;
+    height: 80px;
+    background-color: sandybrown;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 190px;
+    margin-left: 250px;
+  }
+
+  #faq-container {
+  margin-top: 800px;
+}
+
+  footer {
+  width: 100%;
+  height: 1100px;
+  background-color: chocolate;
+  margin-top: 200px;
+  padding-top: 50px;
+  padding-left: 50px;
+  display: block;
+}
+
+.logo {
+  color: peachpuff;
+  font-family: "Edwardian Script ITC";
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.footer-paragraph {
+  font-family: 'fantasy';
+  font-weight: 500;
+  margin-left: 0px;
+  margin-right: 30px;
+}
+
+.social-media-stack {
+  width: 200px;
+  display: flex;
+}
+
+#facebook {
+  font-size: 30px;
+  color: white;
+  border: none;
+  margin-right: 20px;
+}
+
+#tweet {
+  font-size: 30px;
+  border: none;
+  color: white;
+  margin-right: 20px;
+}
+
+#linked {
+  color: white;
+  font-size: 30px;
+}
+
+.second-footer-container {
+  margin-left: 0px;
+}
+
+.service {
+  margin-top: 60px;
+}
+
+.first-link {
+  margin-top: 30px;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+.first-link a {
+  color: white;
+  font-family: 'fantasy';
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.second-link a {
+  color: white;
+  font-family: 'fantasy';
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.third-link a {
+  color: white;
+  font-family: 'fantasy';
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.third-footer-container {
+  margin-top: 70px;
+  margin-left: 0px;
+}
+
+.contacts {
+  margin-top: 20px;
+}
+
+.mail-me {
+  margin-top: 30px;
+}
+
+#mailme {
+  color: white;
+  margin-right: 6px;
+}
+
+a.e-mail {
+  color: white;
+  text-decoration: none;
+}
+
+a.e-mail:hover {
+  text-decoration: underline;
+}
+
+.first-phone-no {
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.second-phone-no {
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+#call {
+  margin-right: 6px;
+}
+
+.fourth-footer-container {
+  margin-top: 70px;
+  margin-left: 0px;
+}
+
+.o-add {
+  margin-top: 20px;
+}
+
+.address-p {
+  margin-top: 30px;
+  font-weight: 600;
+  font-family: 'fantasy';
+}
+}

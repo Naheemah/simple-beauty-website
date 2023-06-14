@@ -1,0 +1,1048 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: wheat;
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(girl.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container-fluid {
+  margin-left: 140px;
+}
+
+ul {
+  margin-left: 100px;
+}
+
+li {
+  margin-left: 20px;
+}
+
+a.nav-link:hover {
+  border-bottom: 2px solid sandybrown;
+}
+
+.head3 {
+  color: chocolate;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 30px;
+}
+
+.content {
+  color: gray;
+  font-weight: 500;
+  text-align: center;
+}
+
+.img-content-container {
+  margin-top: 50px;
+  margin-left: 250px;
+}
+
+.img-container1 {
+  position: absolute;
+  width: 260px;
+}
+
+.img-container2 {
+  width: 260px;
+  position: absolute;
+  margin-left: 300px;
+}
+
+.img-container3 {
+  margin-left: 600px;
+  width: 260px;
+}
+
+.img-content-container2 {
+  margin-top: 100px;
+  margin-left: 250px;
+}
+
+.image {
+  width: 250px;
+  height: 150px;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 7px 0.5px hsl(208, 11%, 55%);
+}
+
+.caption {
+  color: gray;
+  font-weight: 600;
+}
+
+.caption2 {
+  color: gray;
+  font-size: 10.5px;
+}
+
+.heading3 {
+  font-size: 40px;
+  color: chocolate;
+  margin-top: 70px;
+  text-align: center;
+}
+
+.heading-content {
+  color: gray;
+  text-align: center;
+}
+
+#formbox {
+  width: 800px;
+  margin: 20px auto 20px auto;
+  margin-top: 50px;
+}
+
+input[type="submit"] {
+  width: 250px;
+  height: 50px;
+  border: none;
+  border-radius: 30px;
+  background-color: chocolate;
+  color: white;
+  font-weight: 500;
+  margin-top: 30px;
+  margin-left: 270px;
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(228, 120, 43);
+}
+
+label {
+  font-family: 'fantasy';
+  font-style: italic;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+#specialize {
+  margin-top: 150px;
+}
+
+img {
+  width: 200px;
+  height: 150px;
+}
+
+.img-container {
+  width: 300px;
+  height: 200px;
+}
+
+img:hover {
+  width: 200px;
+  height: 150px;
+  box-shadow: 5px 5px 7px 0.5px hsl(208, 11%, 55%);
+  padding: 20px;
+}
+
+.image-wrapper {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 230px;
+}
+
+.spec {
+  width: 250px;
+}
+
+#captions {
+  margin-top: 10px;
+  text-align: center;
+  margin-right: 50px;
+}
+
+/*figure {
+  width: 210px;
+  height: 200px;
+}*/
+
+button {
+  margin-top: 0;
+}
+
+#btns {
+  color: red;
+  margin-left: 150px;
+}
+
+.button {
+  margin-left: 270px;
+}
+
+input[type="text"], input[type="email"], input[type="password"],
+input[type="date"], input[type="time"], select {
+  border: none;
+}
+
+#input-box {
+  border-radius: 20px;
+}
+
+footer {
+  width: 100%;
+  height: 400px;
+  background-color: chocolate;
+  margin-top: 200px;
+  padding-top: 50px;
+  padding-left: 50px;
+  display: flex;
+}
+
+.logo {
+  color: peachpuff;
+  font-family: "Edwardian Script ITC";
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.footer-paragraph {
+  font-family: 'fantasy';
+  font-weight: 500;
+}
+
+.social-media-stack {
+  width: 200px;
+  display: flex;
+}
+
+#facebook {
+  font-size: 30px;
+  color: white;
+  border: none;
+  margin-right: 20px;
+}
+
+#tweet {
+  font-size: 30px;
+  border: none;
+  color: white;
+  margin-right: 20px;
+}
+
+#linked {
+  color: white;
+  font-size: 30px;
+  margin-right: 20px;
+}
+
+.second-footer-container {
+  margin-left: 100px;
+}
+
+.service {
+  margin-top: 20px;
+}
+
+.first-link {
+  margin-top: 50px;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+.first-link a {
+  color: white;
+  font-family: 'fantasy';
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.second-link a {
+  color: white;
+  font-family: 'fantasy';
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.third-link a {
+  color: white;
+  font-family: 'fantasy';
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.third-footer-container {
+  margin-left: 150px;
+}
+
+.contacts {
+  margin-top: 20px;
+}
+
+.mail-me {
+  margin-top: 56px;
+}
+
+#mailme {
+  color: white;
+  margin-right: 6px;
+}
+
+a.e-mail {
+  color: white;
+  text-decoration: none;
+}
+
+a.e-mail:hover {
+  text-decoration: underline;
+}
+
+.first-phone-no {
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.second-phone-no {
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+#call {
+  margin-right: 6px;
+}
+
+.fourth-footer-container {
+  margin-left: 150px;
+}
+
+.o-add {
+  margin-top: 20px;
+}
+
+.address-p {
+  margin-top: 55px;
+  font-weight: 600;
+  font-family: 'fantasy';
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: wheat;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(girl.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  }
+
+  .container-fluid {
+    margin-left: 30px;
+  }
+
+  .content {
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .img-content-container, .img-content-container2 {
+    margin-left: 130px;
+    text-align: center;
+  }
+
+  .img-content-container2 {
+    margin-top: 0;
+  }
+
+  .image {
+    width: 340px;
+    height: 270px;
+  }
+
+  .img-container1, .img-container2, .img-container3 {
+    width: 350px;
+    margin-bottom: 60px;
+  }
+
+  .img-container1, .img-container2 {
+    position: initial;
+  }
+
+  .img-container2 {
+    margin-left: 0;
+  }
+
+  .img-container3 {
+    margin-left: 0px;
+    margin-top: 0px;
+    position: initial;
+  }
+
+  #specialize {
+    margin-top: 70px;
+  }
+
+  .image-wrapper {
+    margin-left: 150px;
+    display: block;
+  }
+
+  .img-container {
+    height: 310px;
+  }
+
+  .spec {
+    width: 300px;
+    height: 230px;
+  }
+
+  #captions {
+    margin-left: 50px;
+  }
+
+  #team {
+    margin-left: 0px;
+  }
+
+  .button {
+    margin-left: 170px;
+  }
+
+  #formbox {
+    width: 500px;
+  }
+
+  input[type="submit"] {
+    margin-left: 100px;
+  }
+  
+  footer {
+    width: 100%;
+    height: 1000px;
+    margin-top: 350px;
+    display: block;
+  }
+
+  .second-footer-container, .third-footer-container,
+  .fourth-footer-container {
+    margin-left: 0;
+  }
+
+  .services, .contact, .oadd {
+    margin-top: 50px;
+  }
+
+  .first-link, .mail-me, .address-p {
+    margin-top: 10px;
+  }
+}
+
+
+
+@media screen and (max-width: 450px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: wheat;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(girl.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  }
+
+  .container-fluid {
+    margin-left: 30px;
+  }
+
+  ul {
+    margin-left: 0px;
+  }
+
+  li {
+    margin-left: 100px;
+  }
+
+  .head3 {
+    color: chocolate;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 30px;
+  }
+
+  .content {
+    color: gray;
+    font-weight: 500;
+    text-align: center;
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+
+  .img-content-container {
+    margin-top: 50px;
+    margin-left: 100px;
+  }
+
+  .img-content-container2 {
+    margin-top: 50px;
+    margin-left: 100px;
+  }
+
+  .img-container1 {
+    position: initial;
+    width: 260px;
+    height: 350px;
+    margin-left: 0px;
+  }
+
+  .img-container2 {
+    width: 260px;
+    height: 350px;
+    position: initial;
+    margin-left: 0px;
+  }
+
+  .img-container3 {
+    margin-left: 0px;
+    width: 260px;
+    height: 350px;
+  }
+
+  .image {
+    width: 250px;
+    height: 150px;
+    box-shadow: 2px 2px 7px 0.5px hsl(208, 11%, 55%);
+  }
+
+  .caption {
+    color: gray;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .caption2 {
+    color: gray;
+    font-size: 14px;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 20px;
+  }
+
+  .heading3 {
+    font-size: 30px;
+    color: chocolate;
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .heading-content {
+    color: gray;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-right: 50px;
+  }
+
+  #specialize {
+    margin-top: 30px;
+  }
+
+  .image-wrapper {
+    display: block;
+    margin-top: 50px;
+    margin-left: 80px;
+  }
+
+  .spec {
+    width: 280px;
+    height: 200px;
+  }
+
+  .img-container {
+    height: 270px;
+  }
+
+  #captions {
+    margin-top: 10px;
+    margin-left: 50px;
+  }
+
+  .button {
+    margin-left: 0px;
+  }
+
+  #team {
+    margin-left: 130px;
+    width: 170px;
+  }
+
+  #formbox {
+  width: 410px;
+  margin-top: 50px;
+}
+
+  input[type="submit"] {
+    width: 250px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    background-color: chocolate;
+    color: white;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-left: 40px;
+  }
+
+  #btn {
+    margin-right: 0px;
+  }
+
+  footer {
+  width: 100%;
+  height: 1100px;
+  background-color: chocolate;
+  margin-top: 200px;
+  padding-top: 50px;
+  padding-left: 50px;
+  display: block;
+}
+
+.logo {
+  color: peachpuff;
+  font-family: "Edwardian Script ITC";
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.footer-paragraph {
+  font-family: 'fantasy';
+  font-weight: 500;
+  margin-left: 0px;
+  margin-right: 30px;
+}
+
+.social-media-stack {
+  width: 200px;
+  display: flex;
+}
+
+#facebook {
+  font-size: 30px;
+  color: white;
+  border: none;
+  margin-right: 20px;
+}
+
+#tweet {
+  font-size: 30px;
+  border: none;
+  color: white;
+  margin-right: 20px;
+}
+
+#linked {
+  color: white;
+  font-size: 30px;
+}
+
+.second-footer-container {
+  margin-left: 0px;
+}
+
+.service {
+  margin-top: 60px;
+}
+
+.first-link {
+  margin-top: 30px;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+.first-link a {
+  color: white;
+  font-family: 'fantasy';
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.second-link a {
+  color: white;
+  font-family: 'fantasy';
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.third-link a {
+  color: white;
+  font-family: 'fantasy';
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.third-footer-container {
+  margin-top: 70px;
+  margin-left: 0px;
+}
+
+.contacts {
+  margin-top: 20px;
+}
+
+.mail-me {
+  margin-top: 30px;
+}
+
+#mailme {
+  color: white;
+  margin-right: 6px;
+}
+
+a.e-mail {
+  color: white;
+  text-decoration: none;
+}
+
+a.e-mail:hover {
+  text-decoration: underline;
+}
+
+.first-phone-no {
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.second-phone-no {
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+#call {
+  margin-right: 6px;
+}
+
+.fourth-footer-container {
+  margin-top: 70px;
+  margin-left: 0px;
+}
+
+.o-add {
+  margin-top: 20px;
+}
+
+.address-p {
+  margin-top: 30px;
+  font-weight: 600;
+  font-family: 'fantasy';
+}
+}
+
+
+
+
+@media screen and (max-width: 375px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: wheat;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(girl.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  }
+
+  .container-fluid {
+    margin-left: 30px;
+  }
+
+  ul {
+    margin-left: 0px;
+  }
+
+  li {
+    margin-left: 100px;
+  }
+
+  .head3 {
+    color: chocolate;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 30px;
+  }
+
+  .content {
+    color: gray;
+    font-weight: 500;
+    text-align: center;
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+
+  .img-content-container {
+    margin-top: 50px;
+    margin-left: 30px;
+  }
+
+  .img-container1 {
+    position: initial;
+    width: 260px;
+    height: 350px;
+    margin-left: 20px;
+  }
+
+  .img-container2 {
+    width: 260px;
+    height: 350px;
+    position: initial;
+    margin-left: 20px;
+  }
+
+  .img-container3 {
+    margin-left: 20px;
+    width: 260px;
+    height: 350px;
+  }
+
+  .img-content-container2 {
+    margin-top: 50px;
+    margin-left: 30px;
+  }
+
+  .image {
+    width: 250px;
+    height: 150px;
+    box-shadow: 2px 2px 7px 0.5px hsl(208, 11%, 55%);
+  }
+
+  .caption {
+    color: gray;
+    font-weight: 600;
+  }
+
+  .caption2 {
+    color: gray;
+    font-size: 14px;
+    text-align: center;
+    margin-right: 20px;
+  }
+
+  .heading3 {
+    font-size: 30px;
+    color: chocolate;
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .heading-content {
+    color: gray;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-right: 50px;
+  }
+
+  #specialize {
+    margin-top: 30px;
+  }
+
+  .image-wrapper {
+    display: block;
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+
+  .button {
+    margin-left: 0px;
+  }
+
+  #team {
+    margin-left: 100px;
+    width: 170px;
+  }
+
+  #formbox {
+  width: 350px;
+  margin-top: 50px;
+}
+
+  input[type="submit"] {
+    width: 250px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    background-color: chocolate;
+    color: white;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+
+  #btn {
+    margin-right: 0px;
+  }
+
+  footer {
+  width: 100%;
+  height: 1100px;
+  background-color: chocolate;
+  margin-top: 200px;
+  padding-top: 50px;
+  padding-left: 50px;
+  display: block;
+}
+
+.logo {
+  color: peachpuff;
+  font-family: "Edwardian Script ITC";
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.footer-paragraph {
+  font-family: 'fantasy';
+  font-weight: 500;
+  margin-left: 0px;
+  margin-right: 30px;
+}
+
+.social-media-stack {
+  width: 200px;
+  display: flex;
+}
+
+#facebook {
+  font-size: 30px;
+  color: white;
+  border: none;
+  margin-right: 20px;
+}
+
+#tweet {
+  font-size: 30px;
+  border: none;
+  color: white;
+  margin-right: 20px;
+}
+
+#linked {
+  color: white;
+  font-size: 30px;
+}
+
+.second-footer-container {
+  margin-left: 0px;
+}
+
+.service {
+  margin-top: 60px;
+}
+
+.first-link {
+  margin-top: 30px;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+.first-link a {
+  color: white;
+  font-family: 'fantasy';
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.second-link a {
+  color: white;
+  font-family: 'fantasy';
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.third-link a {
+  color: white;
+  font-family: 'fantasy';
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.third-footer-container {
+  margin-top: 70px;
+  margin-left: 0px;
+}
+
+.contacts {
+  margin-top: 20px;
+}
+
+.mail-me {
+  margin-top: 30px;
+}
+
+#mailme {
+  color: white;
+  margin-right: 6px;
+}
+
+a.e-mail {
+  color: white;
+  text-decoration: none;
+}
+
+a.e-mail:hover {
+  text-decoration: underline;
+}
+
+.first-phone-no {
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.second-phone-no {
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+#call {
+  margin-right: 6px;
+}
+
+.fourth-footer-container {
+  margin-top: 70px;
+  margin-left: 0px;
+}
+
+.o-add {
+  margin-top: 20px;
+}
+
+.address-p {
+  margin-top: 30px;
+  font-weight: 600;
+  font-family: 'fantasy';
+}
+}

@@ -1,0 +1,390 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: wheat;
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(girl.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container-fluid {
+  margin-left: 140px;
+}
+
+ul {
+  margin-left: 100px;
+}
+
+li {
+  margin-left: 20px;
+}
+
+p.welcome {
+  margin-top: 70px;
+  margin-bottom: 20px;
+  font-size: 22px;
+  color: chocolate;
+  font-weight: 600;
+  word-spacing: 0.8rem;
+  letter-spacing: 1rem;
+  font-family: 'fantasy';
+  font-style: italic;
+  text-align: center;
+}
+
+marquee.below {
+  font-size: 22px;
+  color: chocolate;
+  font-weight: 600;
+  word-spacing: 0.3rem;
+  letter-spacing: 1rem;
+  font-family: 'fantasy';
+  font-style: italic;
+}
+
+#first-container, #second-container, #third-container {
+  margin-bottom: 50px;
+}
+
+#first-container {
+  margin-top: 50px;
+}
+
+.card {
+  background-color: wheat;
+  width: 18rem;
+  padding: 10px;
+}
+
+.card:hover {
+  -webkit-box-shadow: -1px 9px 40px -12px chocolate;
+  -moz-box-shadow: -1px 9px 40px -12px chocolate;
+  box-shadow: -1px 9px 40px -12px chocolate;
+}
+
+.card-text {
+  font-weight: 700;
+  font-family: 'fantasy';
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+footer {
+  width: 100%;
+  height: 400px;
+  background-color: chocolate;
+  margin-top: 200px;
+  padding-top: 50px;
+  padding-left: 50px;
+  display: flex;
+}
+
+.logo {
+  color: peachpuff;
+  font-family: "Edwardian Script ITC";
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.footer-paragraph {
+  font-family: 'fantasy';
+  font-weight: 500;
+}
+
+.social-media-stack {
+  width: 200px;
+  display: flex;
+}
+
+#facebook {
+  font-size: 30px;
+  color: white;
+  border: none;
+  margin-right: 20px;
+}
+
+#tweet {
+  font-size: 30px;
+  border: none;
+  color: white;
+  margin-right: 20px;
+}
+
+#linked {
+  color: white;
+  font-size: 30px;
+}
+
+.second-footer-container {
+  margin-left: 100px;
+}
+
+.service {
+  margin-top: 20px;
+}
+
+.first-link {
+  margin-top: 50px;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+.first-link a {
+  color: white;
+  font-family: 'fantasy';
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.second-link a {
+  color: white;
+  font-family: 'fantasy';
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.third-link a {
+  color: white;
+  font-family: 'fantasy';
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.third-footer-container {
+  margin-left: 150px;
+}
+
+.contacts {
+  margin-top: 20px;
+}
+
+.mail-me {
+  margin-top: 56px;
+}
+
+#mailme {
+  color: white;
+  margin-right: 6px;
+}
+
+a.e-mail {
+  color: white;
+  text-decoration: none;
+}
+
+a.e-mail:hover {
+  text-decoration: underline;
+}
+
+.first-phone-no {
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.second-phone-no {
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+#call {
+  margin-right: 6px;
+}
+
+.fourth-footer-container {
+  margin-left: 150px;
+}
+
+.o-add {
+  margin-top: 20px;
+}
+
+.address-p {
+  margin-top: 55px;
+  font-weight: 600;
+  font-family: 'fantasy';
+}
+
+
+@media screen and (max-width: 600px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: wheat;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(girl.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  }
+
+  .container-fluid {
+    margin-left: 30px;
+  }
+
+  p.welcome {
+    word-spacing: 0.5rem;
+    letter-spacing: 0.3rem;
+  }
+
+  #first-container, #second-container, #third-container {
+    margin-bottom: 0;
+  }
+
+  #first-container, #second-container,
+  #third-container, #fourth-container {
+    width: 60%;
+    margin-left: 130px;
+  }
+
+  .col-lg-4 {
+    margin-bottom: 40px;
+  }
+
+  footer {
+    width: 100%;
+    height: 1000px;
+    margin-top: 300px;
+    display: block;
+  }
+
+  .second-footer-container, .third-footer-container,
+  .fourth-footer-container {
+    margin-left: 0;
+  }
+
+  .services, .contact, .oadd {
+    margin-top: 50px;
+  }
+
+  .first-link, .mail-me, .address-p {
+    margin-top: 10px;
+  }
+}
+
+
+@media screen and (max-width: 450px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: wheat;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(girl.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  }
+
+  .container-fluid {
+    margin-left: 30px;
+  }
+
+  p.welcome {
+    width: 100%;
+    text-align: center;
+    word-spacing: 0.7rem;
+    letter-spacing: 0.5rem;
+  }
+
+  .card {
+    width: 16rem;
+  }
+
+  #first-container, #second-container,
+  #third-container, #fourth-container {
+    width: 70%;
+    margin-left: 70px;
+  }
+
+  footer {
+    width: 100%;
+    height: 1000px;
+    margin-top: 300px;
+    display: block;
+  }
+
+  .second-footer-container, .third-footer-container,
+  .fourth-footer-container {
+    margin-left: 0;
+  }
+
+  .services, .contact, .oadd {
+    margin-top: 50px;
+  }
+
+  .first-link, .mail-me, .address-p {
+    margin-top: 10px;
+}
+}
+
+
+@media screen and (max-width: 375px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: wheat;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(girl.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  }
+
+  .container-fluid {
+    margin-left: 30px;
+  }
+
+  p.welcome {
+    word-spacing: 1rem;
+    letter-spacing: 0.1rem;
+  }
+
+  .card {
+    width: 16rem;
+  }
+
+  #first-container, #second-container,
+  #third-container, #fourth-container {
+    width: 70%;
+    margin-left: 30px;
+  }
+
+  footer {
+    width: 100%;
+    height: 1000px;
+    margin-top: 300px;
+    display: block;
+  }
+
+  .second-footer-container, .third-footer-container,
+  .fourth-footer-container {
+    margin-left: 0;
+  }
+
+  .services, .contact, .oadd {
+    margin-top: 50px;
+  }
+
+  .first-link, .mail-me, .address-p {
+    margin-top: 10px;
+}
+}
